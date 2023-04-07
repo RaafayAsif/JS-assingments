@@ -1,0 +1,4 @@
+var country = {name:"Japan", city:"Tokyo", currency:"JPY", c_code:511};
+
+var ct = Object.values(country);
+console.log(ct.join("\n"))
